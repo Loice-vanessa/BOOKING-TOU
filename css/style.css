@@ -11,7 +11,7 @@ body {
   font-family: "inter", sans-serif;
 }
 header {
-  background-image: url("/images/background.jpeg");
+  background-image: url("../images/background.jpeg");
 
   width: 100%;
   height: 100vh;
@@ -164,9 +164,14 @@ nav {
     border-radius: 40px;
     padding: 10px;
 }
- /* .search-box:hover > .search.txt{
-     width
- } */
+  .search-box:hover > .search.txt{
+     width: 240px;
+     padding: 0  px; 
+ } 
+ .search-box:hover > .search-btn{
+     background-color: white;
+ }
+
  .search-btn{
     color: darkblue;
     float: right;
@@ -176,6 +181,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.4s;
 }
 .search.txt{
     border: none;
@@ -272,4 +278,4 @@ color: rgb(90, 88, 88);
 h4{
     font-size: 1.8rem;
     font-weight: 900;
-    "}
+}
